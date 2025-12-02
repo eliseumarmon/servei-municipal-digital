@@ -28,7 +28,7 @@ Crear una versió redissenyada d’una secció del web municipal, incorporant el
 El resultat final inclourà:
 
 * Dossier de disseny
-* Wireframes, mockups i prototipç
+* Wireframes, mockups i prototip
 * Memòria del treball fet
 * Presentació del projecte
 
