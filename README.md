@@ -17,9 +17,9 @@ L’Ajuntament vos permet escollir entre una d’aquestes seccions:
 * Portal d'incidències municipals.
 * Millora de la visualització i consulta de les ordenances municipals que actualment es mostren en format pdf. Integració d'un chatbot.
 
-!!! Nota
-
-    El contingut ha de ser inventat però creïble (nom d’equipaments, activitats, fotos lliures de drets, etc.).
+> [!NOTE]
+>
+> El contingut ha de ser inventat però creïble (nom d’equipaments, activitats, fotos lliures de drets, etc.).
 
 ## Objectiu
 
