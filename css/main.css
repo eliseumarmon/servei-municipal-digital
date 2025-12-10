@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/IMG_1355-compressor-scaled.jpg");
+}
+
+.header-logo {
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    background-image: url("../img/cropped-EscutAjuntament-1.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-topbar {
+    margin: 0 auto;
+    align-self: stretch;
+    padding: 20px;
+    min-width: 95%;
+    background-color: #0062A3;
+}
+
+.header-topbar a {
+    padding-inline: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-topbar a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs {
+    margin-block: 10px; 
+}
+
+header {
+    border-bottom: grey;
+    box-shadow: 1px 1px 3px grey;
+    margin-bottom: 10px;
+}
+
+header nav {
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 95%;
+    display: flex;
+    height: fit-content;
+}
+
+header nav ul {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header nav ul a {
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul a:hover {
+    background-color: #EDF1F4;
+    color: #86AF49;
+}
+
+header nav div {
+    text-align: center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+header svg {
+    width: fit-content;
+    height: auto;
+    background-color: #86AF49;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    text-shadow: 0 0 10px black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-image: url("../img/panoramica-scaled.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
