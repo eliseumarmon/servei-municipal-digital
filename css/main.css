@@ -73,7 +73,13 @@ body {
 }
 
 .breadcrumbs a:not(:first-child)::before {
-    content: " > ";
+    content: ">";
+    display: inline-block;
+    margin-inline: 5px;
+    
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 header {
@@ -168,8 +174,8 @@ main nav ul li {
 
 main nav ul li a {
     display: flex;
-    place-content: center;
-
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     color: black;
     height: 24px;
